@@ -1,0 +1,15 @@
+{
+  "name": "my-project",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "format": "yarn prettier --write ."
+  },
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}
