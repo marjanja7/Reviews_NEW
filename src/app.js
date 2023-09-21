@@ -2,7 +2,7 @@ let currentReviewIndex =0
 let reviews = [
     {
         title: 'Йошкар-Ола из Казани на машине:)',
-        photo: './photo-1.webp',
+        photo: require('/src/images/photo-1.webp'),
         name: 'Петр Ямщиков',
         date: '15.06.2020',
         rating: '5',
@@ -12,7 +12,7 @@ let reviews = [
     },
     {
         title: 'В центре очень красиво)',
-        photo: './photo-2.webp',
+        photo: require('/src/images/photo-2.webp'),
         name: 'Екатерина Володина',
         date: '12.09.2021',
         rating: '4',
@@ -22,7 +22,7 @@ let reviews = [
     },
     {
         title: 'Город необычных памятников и различных архитектурных стилей. Отзыв об однодневной экскурсии.В центре очень красиво)',
-        photo: './photo-1.webp',
+        photo: require('/src/images/photo-3.webp'),
         name: 'Светлана Петухова',
         date: '07.10.2022',
         rating: '4',
@@ -32,7 +32,7 @@ let reviews = [
     },
     {
         title: 'Пучше один раз увидеть, чем услышать.',
-        photo: './photo-1.webp',
+        photo: require('/src/images/photo-4.webp'),
         name: 'Анна Козырева',
         date: '26.10.2022',
         rating: '5',

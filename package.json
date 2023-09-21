@@ -11,6 +11,7 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
+    "@parcel/transformer-image": "^2.9.3",
     "@parcel/transformer-sass": "2.9.3",
     "prettier": "3.0.3"
   }
