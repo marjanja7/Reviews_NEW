@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(241, 245, 248);
+    background-color: rgb(193, 210, 223);
 }
 .medium {
     display: block;
@@ -22,11 +22,9 @@ h1{
     
 }
 .carousel {
-   background-color:rgb(255, 255, 255);
-    display: block;
-    max-width: 620px;
-    padding: 10px;
-    border-radius: 6px;
+   background-color: rgb(238, 241, 244);
+    max-width: 600px;
+    border-radius: 10%;
     box-shadow: aliceblue 0.25;
     text-align: center;
     display: block;
@@ -39,15 +37,26 @@ h1{
 .name{
     color: rgb(73, 166, 233);
     font-weight: 600;
+    font-size: 24px;
+    margin: 0%;
+}
+.image{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
 }
 .rating{
     color: rgb(46, 41, 79);
-    font-size: 20px;
+    font-size: 14px;
+    margin: 5px;
 }
 .info{
     color: rgb(97, 125, 152);
     font-size: 16px;
+    height: 130px;
+    overflow: scroll;
+    margin: 20px;
 }
-.arrows-btn {
+.date{
     color: rgb(73, 166, 233);
 }

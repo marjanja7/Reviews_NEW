@@ -2,3 +2,8 @@ h1 {
     color: hotpink;
     font-family: cursive;
 }
+.prev-btn {
+    color: rgb(73, 166, 233);
+    border-radius: 10%;
+    
+}
