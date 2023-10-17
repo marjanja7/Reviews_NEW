@@ -86,12 +86,15 @@ function nextReview() {
     }
     carousel ();
 }
-function randomReview() {
+function randomReview() { 
     let currentRandomIndex = Math.floor(Math.random() * reviews.length);
     currentReviewIndex = currentRandomIndex;
+    
 
+    }
+    
 
     console.log(currentRandomIndex);
     carousel();
-}
+ 
 carousel();
