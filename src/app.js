@@ -91,10 +91,7 @@ function randomReview() {
     currentReviewIndex = currentRandomIndex;
     
 
-    }
-    
-
     console.log(currentRandomIndex);
     carousel();
- 
+}
 carousel();
