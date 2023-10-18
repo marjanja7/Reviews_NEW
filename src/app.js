@@ -87,7 +87,10 @@ function nextReview() {
     carousel ();
 }
 function randomReview() { 
-    let currentRandomIndex = Math.floor(Math.random() * reviews.length);
+    let currentRandomIndex
+    do {
+        currentRandomIndex= Math.floor(Math.random() * reviews.length);
+    } while (currentReviewIndex === currentRandomIndex)
     currentReviewIndex = currentRandomIndex;
     
 
